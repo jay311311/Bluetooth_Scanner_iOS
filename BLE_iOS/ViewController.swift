@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        blueToothManager = BlueToothManager.init()
         // Do any additional setup after loading the view.
     }
 
+    
 
 }
 
